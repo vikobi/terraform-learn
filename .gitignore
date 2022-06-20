@@ -1,0 +1,9 @@
+# local .terraform files
+.terraform/*
+
+# terraform state files which serves as backup
+*.tfstate
+*.tfstate.*
+
+# variables file may contain sensitive information and it's best to leave it out
+*.tfvars
